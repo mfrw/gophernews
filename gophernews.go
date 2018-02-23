@@ -166,10 +166,6 @@ func (c *Client) GetTop100() ([]int, error) {
 		return nil, err
 	}
 
-	if err != nil {
-		return nil, err
-	}
-
 	return top100, nil
 }
 
